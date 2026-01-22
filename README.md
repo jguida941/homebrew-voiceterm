@@ -25,5 +25,5 @@ codex-voice
 ## Notes
 
 - This formula builds from source (Rust + CMake required).
-- The formula currently tracks the `master` branch. Update the `url` and `sha256`
-  to a tagged release when available.
+- The formula is pinned to the `v0.2.0` release. Update the `url` and `sha256`
+  when you cut a new tag.
