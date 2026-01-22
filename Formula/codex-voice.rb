@@ -24,7 +24,8 @@ class CodexVoice < Formula
 
   def caveats
     <<~EOS
-      Download a Whisper model:
+      First run downloads a Whisper model if missing.
+      To pre-download manually:
         #{libexec}/scripts/setup.sh models --base
     EOS
   end
