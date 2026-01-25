@@ -1,22 +1,24 @@
 # homebrew-codex-voice
 
-Homebrew tap for Codex Voice (Rust overlay mode).
+Homebrew tap for [codex-voice](https://github.com/jguida941/codex-voice) - Rust voice overlay for Codex CLI with local Whisper STT.
 
 ## Install
 
 ```bash
-brew tap jguida941/homebrew-codex-voice
+brew tap jguida941/codex-voice
 brew install codex-voice
 ```
 
-## Run from any project (first run downloads model if missing)
+## Usage
 
 ```bash
 cd ~/my-project
 codex-voice
 ```
 
-## Optional model pre-download
+First run downloads the Whisper model if missing.
+
+## Pre-download model (optional)
 
 ```bash
 $(brew --prefix)/opt/codex-voice/libexec/scripts/setup.sh models --base
@@ -24,6 +26,5 @@ $(brew --prefix)/opt/codex-voice/libexec/scripts/setup.sh models --base
 
 ## Notes
 
-- This formula builds from source (Rust + CMake required).
-- The formula is pinned to the `v1.0.2` release. Update the `url` and `sha256`
-  when you cut a new tag.
+- Builds from source (requires Rust + CMake)
+- Current version: v1.0.3
