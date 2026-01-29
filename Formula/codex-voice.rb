@@ -1,9 +1,9 @@
 class CodexVoice < Formula
   desc "Voice-enabled overlay for Codex CLI"
   homepage "https://github.com/jguida941/codex-voice"
-  url "https://github.com/jguida941/codex-voice/archive/refs/tags/v1.0.21.tar.gz"
-  version "1.0.21"
-  sha256 "79018424a76c13db87b924b928814f1637821ded84dfe1624c5b547c2e167158"
+  url "https://github.com/jguida941/codex-voice/archive/refs/tags/v1.0.22.tar.gz"
+  version "1.0.22"
+  sha256 "dad1e697f69641250310870489f40701f133d7cb9d05b0965b69326357d85f45"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
