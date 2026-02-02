@@ -10,12 +10,12 @@ class Voxterm < Formula
 
   def install
     libexec.install Dir["*"]
-    system "cargo", "build", "--release", "--bin", "voxterm", "--manifest-path", "#{libexec}/rust_tui/Cargo.toml"
+    system "cargo", "build", "--release", "--bin", "voxterm", "--manifest-path", "#{libexec}/src/Cargo.toml"
     (bin/"voxterm").write <<~EOS
       #!/bin/bash
       export VOXTERM_CWD="$(pwd)"
       export VOXTERM_WRAPPER=1
-      exec "#{libexec}/start.sh" "$@"
+      exec "#{libexec}/scripts/start.sh" "$@"
     EOS
     chmod 0755, bin/"voxterm"
   end
