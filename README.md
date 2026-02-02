@@ -5,7 +5,7 @@ Homebrew tap for [VoxTerm](https://github.com/jguida941/voxterm) - Voice HUD for
 ## Install
 
 ```bash
-brew tap jguida941/voxterm
+brew tap jguida941/homebrew-voxterm
 brew install voxterm
 ```
 
@@ -32,7 +32,7 @@ voxterm --mic-meter               # Measure ambient/speech levels
 `coral` (default), `catppuccin`, `dracula`, `nord`, `ansi`, `none`
 
 ### Available Backends
-`codex` (default), `claude`, or any custom command
+`codex` (default), `claude`, `gemini`, `aider`, `opencode`, or any custom command
 
 ## Pre-download Whisper Model (optional)
 
@@ -53,7 +53,7 @@ $(brew --prefix)/opt/voxterm/libexec/scripts/setup.sh models --base
 
 ## Requirements
 
-- macOS (Apple Silicon or Intel)
+- macOS (Apple Silicon or Intel) or Linux with Homebrew
 - Builds from source (Rust + CMake installed automatically by Homebrew)
 
 ## Troubleshooting
