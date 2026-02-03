@@ -69,4 +69,4 @@ ls ~/.local/share/voxterm/models/
 
 ## Version
 
-Current: v1.0.36
+Current: v1.0.37
