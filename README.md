@@ -82,4 +82,4 @@ More help: https://github.com/jguida941/voxterm/blob/master/guides/TROUBLESHOOTI
 
 ## Version
 
-Current: v1.0.45
+Current: v1.0.46
