@@ -1,9 +1,9 @@
 class Voxterm < Formula
   desc "Voice HUD for AI CLIs with local Whisper STT"
   homepage "https://github.com/jguida941/voxterm"
-  url "https://github.com/jguida941/voxterm/archive/refs/tags/v1.0.54.tar.gz"
-  version "1.0.54"
-  sha256 "f877cf1615976e71b668802b195fd52042136ee94adaebefc8b4066dabcd3aaa"
+  url "https://github.com/jguida941/voxterm/archive/refs/tags/v1.0.55.tar.gz"
+  version "1.0.55"
+  sha256 "f3a9378babd3dd52b562432aec2929629f57b53d8802e2508e52a100bbb642a3"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
