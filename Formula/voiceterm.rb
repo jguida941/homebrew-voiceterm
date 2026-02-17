@@ -1,9 +1,9 @@
 class Voiceterm < Formula
   desc "Voice-first HUD overlay for AI CLIs with local Whisper STT"
   homepage "https://github.com/jguida941/voiceterm"
-  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.72.tar.gz"
-  version "1.0.72"
-  sha256 "b5521c610da0ccff37b1eb9dbf023aab9389e99313dbd3a9018561befb7b9c3b"
+  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.73.tar.gz"
+  version "1.0.73"
+  sha256 "6f65f3e208f58b5b2b99622265d6962c6e10db789c1d3d7da1109e3e03d0ec19"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
@@ -16,7 +16,7 @@ class Voiceterm < Formula
       #!/bin/bash
       export VOICETERM_CWD="$(pwd)"
       export VOICETERM_WRAPPER=1
-      exec "#{libexec}/scripts/start.sh" "$@"
+      exec "#{opt_libexec}/scripts/start.sh" "$@"
     EOS
     chmod 0755, bin/"voiceterm"
   end
