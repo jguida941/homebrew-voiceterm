@@ -1,9 +1,9 @@
 class Voiceterm < Formula
   desc "Voice-first HUD overlay for AI CLIs with local Whisper STT"
   homepage "https://github.com/jguida941/voiceterm"
-  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.82.tar.gz"
-  version "1.0.82"
-  sha256 "64bc85ca21ecee55be5d29761ed98eed7bac3485bf46afc6565211d9e4a557e6"
+  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.83.tar.gz"
+  version "1.0.83"
+  sha256 "53806cdbbf0143016048fd148f89c5892c338525f30c6e4bcb846625ef7f7592"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
