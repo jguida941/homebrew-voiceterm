@@ -32,4 +32,4 @@ brew upgrade voiceterm
 
 ## Version
 
-Current: v1.0.81
+Current: v1.0.82
