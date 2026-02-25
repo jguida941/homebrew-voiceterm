@@ -1,6 +1,7 @@
 # homebrew-voiceterm
 
 Homebrew tap for [VoiceTerm](https://github.com/jguida941/voiceterm).
+Voice-first terminal overlay for Codex and Claude with local Whisper STT.
 
 This repository only contains Homebrew formula and release metadata.
 For full product docs, use the main VoiceTerm repository.
@@ -32,4 +33,4 @@ brew upgrade voiceterm
 
 ## Version
 
-Current: v1.0.90
+Current: v1.0.94
