@@ -1,16 +1,16 @@
 class Voiceterm < Formula
   desc "Voice-first terminal overlay for Codex and Claude with local Whisper STT"
   homepage "https://github.com/jguida941/voiceterm"
-  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.94.tar.gz"
-  version "1.0.94"
-  sha256 "149e48439aba85b47e637cfc28d8af84ec2584d447d64535bb27cad99e49d44d"
+  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.95.tar.gz"
+  version "1.0.95"
+  sha256 "26a747128884851f8d51ad8dcf4586b575c84f9207dc83c5e414c6fda61dd581"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
 
   def install
     libexec.install Dir["*"]
-    system "cargo", "build", "--release", "--bin", "voiceterm", "--manifest-path", "#{libexec}/src/Cargo.toml"
+    system "cargo", "build", "--release", "--bin", "voiceterm", "--manifest-path", "#{libexec}/rust/Cargo.toml"
 
     (bin/"voiceterm").write <<~EOS
       #!/bin/bash
