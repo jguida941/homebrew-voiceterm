@@ -1,9 +1,9 @@
 class Voiceterm < Formula
   desc "Voice-first terminal overlay for Codex and Claude with local Whisper STT"
   homepage "https://github.com/jguida941/voiceterm"
-  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.97.tar.gz"
-  version "1.0.97"
-  sha256 "8da9073ab40d13bffcd149d151895b575849cfc07c4587c87b88c8ecaed255c2"
+  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.0.99.tar.gz"
+  version "1.0.99"
+  sha256 "db2d265353071853ad77944f5729ccdb5bf193ca64369ec471920b2ae4fd79e2"
 
   depends_on "rust" => :build
   depends_on "cmake" => :build
