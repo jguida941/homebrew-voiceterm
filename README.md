@@ -33,4 +33,4 @@ brew upgrade voiceterm
 
 ## Version
 
-Current: v1.1.0
+Current: v1.1.1
