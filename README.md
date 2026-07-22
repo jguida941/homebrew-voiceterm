@@ -15,7 +15,7 @@ For full product docs, use the main VoiceTerm repository.
 | Usage guide | https://github.com/jguida941/voiceterm/blob/master/guides/USAGE.md |
 | CLI flags | https://github.com/jguida941/voiceterm/blob/master/guides/CLI_FLAGS.md |
 | Troubleshooting | https://github.com/jguida941/voiceterm/blob/master/guides/TROUBLESHOOTING.md |
-| Changelog | https://github.com/jguida941/voiceterm/blob/master/dev/CHANGELOG.md |
+| Changelog | https://github.com/jguida941/voiceterm/blob/master/CHANGELOG.md |
 
 ## Install
 
@@ -33,4 +33,4 @@ brew upgrade voiceterm
 
 ## Version
 
-Current: v1.2.5
+Current: v1.2.6

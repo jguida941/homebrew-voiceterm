@@ -1,10 +1,9 @@
 class Voiceterm < Formula
   desc "Voice-first terminal overlay for Codex and Claude with local Whisper STT"
   homepage "https://github.com/jguida941/voiceterm"
-  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.2.5.tar.gz"
-  version "1.2.5"
-  sha256 "b387c9a1692fe93d9ec523f00717a2b121669a523df5d735feceacc6dfb47a0f"
-
+  url "https://github.com/jguida941/voiceterm/archive/refs/tags/v1.2.6.tar.gz"
+  version "1.2.6"
+  sha256 "4afb9f65fbf3c250bb356d43ed7feff72ece6378adc4b5029cfdab85697d217b"
   depends_on "rust" => :build
   depends_on "cmake" => :build
 
@@ -28,7 +27,7 @@ class Voiceterm < Formula
         #{libexec}/scripts/setup.sh models --base
 
       Themes: chatgpt, claude, codex, coral, catppuccin, dracula, nord, tokyonight, gruvbox, ansi, none
-      Backends: codex (default), claude, gemini (in works), or custom command
+      Backends: codex (default), claude; gemini/custom are experimental
 
       Run `voiceterm --help` for all options.
     EOS
